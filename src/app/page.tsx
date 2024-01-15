@@ -2,8 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
-  <div>
-    <h1>Home</h1>
-    <Link href="/about">About</Link>
-  </div>;
+  return (
+    <>
+      <h1>Home</h1>
+      <h2>Category</h2>
+      <Link href="/about">About</Link>
+    </>
+  );
 }
